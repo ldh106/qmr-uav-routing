@@ -26,7 +26,7 @@
 - **해결방안**: 단순 파라미터 조정만으로는 개선이 어렵다고 판단, 의사결정 구조
   자체를 바꾸는 실험 2로 이어짐
 
-![delivery ratio](corrected_s3_delivery_ratio.png)
+![delivery ratio](results/corrected_s3_delivery_ratio.png)
 
 ## 실험 2. Deadline-Aware Two-Mode Policy
 
@@ -36,6 +36,9 @@
   (예: max 584s → 578s). 다만 신뢰구간이 겹쳐 통계적으로는 조심스러움
 - **해결방안**: seed 수를 늘려 추가 검증 필요. 페널티(DM)를 같이 켰을 때 효과가
   안 보이는 문제는 원인을 찾아 별도 기록 → [NOTES.md](NOTES.md) 참고
+
+![two mode policy max delay](results/two_mode_policy_max_delay.png)
+![two mode policy p95 delay](results/two_mode_policy_p95_delay.png)
 
 ## 한계
 
