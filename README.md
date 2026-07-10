@@ -37,7 +37,7 @@
 - **해결방안**: seed 수를 늘려 추가 검증 필요. 페널티(DM)를 같이 켰을 때 효과가
   안 보이는 문제는 원인을 찾아 별도 기록 → [NOTES.md](NOTES.md) 참고
 
-<img src="results/two_mode_policy_max_delay.png" width="380" style="margin-right:20px"><img src="results/two_mode_policy_p95_delay.png" width="380">
+<img src="results/two_mode_policy_max_delay.png" width="380">    <img src="results/two_mode_policy_p95_delay.png" width="380">
 
 ## 한계
 
